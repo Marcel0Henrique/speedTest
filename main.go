@@ -1,5 +1,7 @@
 package main
 
-func main() {
+import speedtest "github.com/Marcel0Henrique/speedTest/speedTest"
 
+func main() {
+	speedtest.Run()
 }
